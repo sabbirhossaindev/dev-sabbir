@@ -1,0 +1,19 @@
+.phone{
+    display: flex;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    gap: 20px;
+}
+.location{
+    display: flex;
+    gap: 20px;
+}
+.social-link{
+    display: flex;
+    gap: 20px;
+}
+.social-link a{
+    text-decoration: none;
+}
