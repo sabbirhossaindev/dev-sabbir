@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
 import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 
 const Contact = () => {
@@ -50,19 +51,23 @@ const Contact = () => {
                             <h2><a href="#kkk">kk</a></h2>    
                         </div>
                     </Col>
+
                     <Col md='8'>
-                    <Form>
-                        <div className='name-email'>
-                            <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>Email *</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" required/>
-                            </Form.Group>
-                            
-                            <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>Email *</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" required/>
-                            </Form.Group>
-                        </div>
+                    <Form> 
+                        <Row>
+                            <Col md="4">
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Name</Form.Label>
+                                    <Form.Control type="Name" placeholder="Enter email" required/>
+                                </Form.Group>
+                            </Col>
+                            <Col md="4">
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Email *</Form.Label>
+                                    <Form.Control type="email" placeholder="Enter email" required/>
+                                </Form.Group>
+                            </Col>
+                        </Row>
                         
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Subject</Form.Label>
@@ -72,6 +77,8 @@ const Contact = () => {
                             <Form.Label>Message *</Form.Label>
                             <Form.Control as="textarea" rows={3} placeholder="Message me please" required/>
                         </Form.Group>
+                        
+                        <Button variant="outline-primary" className='my-3'>Sand Message</Button>{' '}
                         </Form>
                     </Col>
                 </Row>
