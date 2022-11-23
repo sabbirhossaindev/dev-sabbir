@@ -11,11 +11,12 @@ const Footer = () => {
                 <Row>
                     <Col md="3">
                         <h2>Pages</h2>
-                             <p>Home</p>
+                            <p>Home</p>
                             <p>About Me</p>
                             <p>Skills</p>
-                            <p>Contact Us</p>
-                        
+                            <p>Projects</p>
+                            <p>Blogs</p>
+                            <p>Contact Us</p>      
                     </Col>
                     <Col md="3">
                         <h2>Contact us</h2>
@@ -25,7 +26,7 @@ const Footer = () => {
                     </Col>
                     <Col md="6" className='py-1'>
                         <div>
-                            <h4>App Store</h4>
+                            <h4 className='mx-5'>Store Choose</h4>
                         </div>
                         <Row>
                             <Col md="12">
