@@ -10,10 +10,10 @@ const HomeBanner = () => {
         <div className='mt-5 my-5'>
             <Container>
                 <Row>
-                    <Col md="6">
-                        <div className='mt-5'>
+                    <Col md="6" className='mt-5'>
+                        <div className=''>
                             <h1>Hi, I'm</h1>
-                            <h1 className='sabbir'>SABBIR HOSSAIN</h1>
+                            <h1 className='sabbir text-primary'>SABBIR HOSSAIN</h1>
                             <h1 className='mt-5 my-5'>I am.....</h1>
                             <Button variant="warning" className='mt-4'><a href="https://github.com/sabbirvai" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
                             <Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>       
