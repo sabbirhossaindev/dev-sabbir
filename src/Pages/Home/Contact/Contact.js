@@ -1,20 +1,20 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 
 const Contact = () => {
     return (
-        <div>
-            <h1 className='text-center mx-5 my-5'>Get in <span className='text-primary'>Touch</span></h1>
+        <div className='my-5 mt-5'>
+            <h1 className='text-center my-5'>Get in <span className='text-primary'>Touch</span></h1>
             <Container>
                 <Row>
                     <Col md='4'>
                         <div className='phone'>
-                            <h2>
+                            <h2 className='mt-2'>
                                 <span><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
@@ -24,7 +24,7 @@ const Contact = () => {
                         </div>
 
                         <div className='email'>
-                            <h2>
+                            <h2 className='mt-2'>
                                 <span><BsFillEnvelopeOpenFill /></span>
                             </h2>
                             <div>
@@ -34,7 +34,7 @@ const Contact = () => {
                         </div>
 
                         <div className='location'>
-                            <h2>
+                            <h2 className='mt-2'>
                                 <span><BsCursorFill /></span>
                             </h2>
                             <div>
@@ -44,24 +44,23 @@ const Contact = () => {
                         </div>
 
                         <div className='social-link my-5'>
-                            <h2><a href="#kkk">kk</a></h2>
-                            <h2><a href="#kkk">kk</a></h2>
-                            <h2><a href="#kkk">kk</a></h2>
-                            <h2><a href="#kkk">kk</a></h2>
-                            <h2><a href="#kkk">kk</a></h2>    
+                            <h2><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
+                            <h2><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
+                            <h2><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
+                            <h2><a href="https://github.com/sabbirvai"><BsGithub /></a></h2>    
                         </div>
                     </Col>
 
                     <Col md='8'>
                     <Form> 
                         <Row>
-                            <Col md="4">
+                            <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Name</Form.Label>
-                                    <Form.Control type="Name" placeholder="Enter email" required/>
+                                    <Form.Control type="text" placeholder="Name" required/>
                                 </Form.Group>
                             </Col>
-                            <Col md="4">
+                            <Col md="6">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Email *</Form.Label>
                                     <Form.Control type="email" placeholder="Enter email" required/>
