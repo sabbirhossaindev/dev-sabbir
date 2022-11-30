@@ -10,9 +10,9 @@ const Contact = () => {
     return (
         <div className='my-5 mt-5'>
             <h1 className='text-center my-5'>Get in <span className='text-primary'>Touch</span></h1>
-            <Container data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <Container>
                 <Row>
-                    <Col md='5'>
+                    <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>
                             <h2 className='mt-2'>
                                 <span><BsFillTelephoneInboundFill /></span>

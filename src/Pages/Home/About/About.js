@@ -12,7 +12,7 @@ const About = () => {
             <Container>
                 <Row>
                     <Col md='4'>
-                        <div>
+                        <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <img src={sabbir} alt="" className='img-fluid p-3'/>
                         </div>
                     </Col>

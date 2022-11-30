@@ -12,7 +12,7 @@ const HomeBanner = () => {
         <div className='mt-5 my-5'>
             <Container>
                 <Row>
-                    <Col md="6" className='mt-5'>
+                    <Col md="6" className='mt-5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
                             <h1>Hi, I'm</h1>
                             <h1 className='sabbir text-primary'>SABBIR HOSSAIN</h1>
@@ -29,7 +29,7 @@ const HomeBanner = () => {
                         </div>
                     </Col>
                     <Col md="6">
-                        <img src={aws} alt="aws" className='img-fluid sabbir-img' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000"/>
+                        <img src={aws} alt="aws" className='img-fluid sabbir-img' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
                 </Row>
             </Container>
