@@ -9,16 +9,16 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand><Link className='mx-3 nav-link' to='/homebanner'><h3 className='text-secondary'>Dev || bir</h3></Link></Navbar.Brand>
+        <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h3 className='text-secondary'>Dev || bir</h3></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Link className='mx-3 nav-link' to='/homebanner'><h5 className='text-secondary'>Home</h5></Link>
-            <Link className='mx-3 nav-link' to='/about'><h5 className='text-secondary'>About</h5></Link>
-            <Link className='mx-3 nav-link' to='/skills'><h5 className='text-secondary'>Skills</h5></Link>
-            <Link className='mx-3 nav-link' to='/projects'><h5 className='text-secondary'>Projects</h5></Link>
-            <Link className='mx-3 nav-link' to='/blogs'><h5 className='text-secondary'>Blogs</h5></Link>
-            <Link className='mx-3 nav-link' to='/contact'><h5 className='text-secondary'>Contact</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>Home</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>About</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>Skills</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>Projects</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>Blogs</h5></Link>
+            <Link className='mx-3 nav-link' to='/'><h5 className='text-secondary'>Contact</h5></Link>
           </Nav>  
         </Navbar.Collapse>
       </Container>

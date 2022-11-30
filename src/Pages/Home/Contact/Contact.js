@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div className='my-5 mt-5'>
             <h1 className='text-center my-5'>Get in <span className='text-primary'>Touch</span></h1>
-            <Container>
+            <Container data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <Row>
                     <Col md='4'>
                         <div className='phone'>

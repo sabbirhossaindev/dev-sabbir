@@ -4,6 +4,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 const Skills = () => {
+    const now = 60;
     return (
         <div className='my-5 mt-5'>
             <h1 className='text-center my-5'>My <span className='text-primary'>Skills</span></h1>
@@ -11,8 +12,8 @@ const Skills = () => {
                 <Row>
                     <Col md='3'>
                         <h5 className='my-4'>HTML</h5>
-                        {/* const now = 60;
-                        <ProgressBar now={now} label={`${now}%`} /> */}
+                        
+                        <ProgressBar now={now} label={`${now}%`} />
                         <ProgressBar animated now={95} />
                         <h5 className='my-4'>CSS</h5>
                         <ProgressBar animated now={85} />

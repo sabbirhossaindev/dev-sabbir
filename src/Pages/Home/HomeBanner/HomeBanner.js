@@ -4,8 +4,10 @@ import aws from '../../../Images/logo/aws.png'
 import Button from 'react-bootstrap/Button';
 import { BsDownload, BsChatSquareDotsFill } from "react-icons/bs";
 import './HomeBanner.css';
+import Typewriter from 'typewriter-effect';
 
 const HomeBanner = () => {
+    
     return (
         <div className='mt-5 my-5'>
             <Container>
@@ -14,13 +16,26 @@ const HomeBanner = () => {
                         <div className=''>
                             <h1>Hi, I'm</h1>
                             <h1 className='sabbir text-primary'>SABBIR HOSSAIN</h1>
-                            <h1 className='mt-5 my-5'>I am.....</h1>
+                            <Typewriter
+                                onInit={(typewriter) => {
+                                    typewriter.typeString('Hello World!', "sabbir")
+                                    .callFunction(() => {
+                                        console.log('String typed out!');
+                                    })
+                                    .pauseFor(200)
+                                    .deleteAll()
+                                    .callFunction(() => {
+                                        console.log('All strings were deleted');
+                                    })
+                                    .start();
+                                }}
+                            />
                             <Button variant="warning" className='mt-4'><a href="https://github.com/sabbirvai" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
                             <Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>       
                         </div>
                     </Col>
                     <Col md="6">
-                        <img src={aws} alt="aws" className='img-fluid'/>
+                        <img src={aws} alt="aws" className='img-fluid sabbir-img'/>
                     </Col>
                 </Row>
             </Container>
