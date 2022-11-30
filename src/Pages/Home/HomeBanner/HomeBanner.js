@@ -19,14 +19,8 @@ const HomeBanner = () => {
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter.typeString('Hello World!', "sabbir")
-                                    .callFunction(() => {
-                                        console.log('String typed out!');
-                                    })
                                     .pauseFor(200)
                                     .deleteAll()
-                                    .callFunction(() => {
-                                        console.log('All strings were deleted');
-                                    })
                                     .start();
                                 }}
                             />
@@ -35,7 +29,7 @@ const HomeBanner = () => {
                         </div>
                     </Col>
                     <Col md="6">
-                        <img src={aws} alt="aws" className='img-fluid sabbir-img'/>
+                        <img src={aws} alt="aws" className='img-fluid sabbir-img' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000"/>
                     </Col>
                 </Row>
             </Container>
