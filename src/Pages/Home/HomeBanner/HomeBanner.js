@@ -16,13 +16,15 @@ const HomeBanner = () => {
                         <div className=''>
                             <h1>Hi, I'm</h1>
                             <h1 className='sabbir text-primary'>SABBIR HOSSAIN</h1>
+                            <h2 className=''>SABBIR HOSSAIN</h2>
+                            
                             <Typewriter
-                                onInit={(typewriter) => {
-                                    typewriter.typeString('Hello World!', "sabbir")
-                                    .pauseFor(200)
-                                    .deleteAll()
-                                    .start();
-                                }}
+                            className='options'
+                            options={{
+                                strings: ["CEO & FOUNDER of", "𝒮𝒶𝒷𝒷𝒾𝓇 𝕀𝕋 ⏧.", " PROGRAMMER.", "WEB DEVELOPER.", "APP DEVELOPER."],
+                                autoStart: true,
+                                loop: true,
+                            }}
                             />
                             <Button variant="warning" className='mt-4'><a href="https://github.com/sabbirvai" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
                             <Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>       
