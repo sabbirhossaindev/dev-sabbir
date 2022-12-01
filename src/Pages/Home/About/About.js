@@ -14,7 +14,9 @@ const About = () => {
             backgroundSize: 'cover'
         }}>
             <Container className='mt-5 my-5'>
-                <h1 className='text-center my-5'><span className='text-primary'>About</span> Me</h1>
+                <h1 className='text-center my-4'><span className='text-primary'>About</span> Me</h1>
+                    <hr className='hr1'/>
+                    <hr className='hr2'/>
                 <Row>
                     <Col md='4'>
                         <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">

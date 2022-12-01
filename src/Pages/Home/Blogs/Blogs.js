@@ -2,13 +2,16 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import './Blogs.css';
 
 const Blogs = () => {
     return (
         <div className='p-5'>
             <Container>
                 <div>
-                    <h1 className='text-center mt-5 my-5'>My <span className='text-primary'>Blogs</span></h1>
+                    <h1 className='text-center mt-5 my-4'>My <span className='text-primary'>Blogs</span></h1>
+                    <hr className='hr1'/>
+                    <hr className='hr2'/>
                 </div>
                 <Row>
                     <Col md="12">

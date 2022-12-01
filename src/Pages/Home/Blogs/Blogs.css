@@ -1,14 +1,8 @@
-.skill-banner{
-    background: #f6f3f3;
-    width: 100%;
-}
 .hr2{
     border: 1.5px solid #333131;
     width: 100px;
 }
 
-element.style {
-}
 hr:not([size]) {
     height: 1px;
 }

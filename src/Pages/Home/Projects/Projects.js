@@ -5,7 +5,9 @@ import './Projects.css';
 const Projects = () => {
     return (
         <Container className='mt-5 my-5 p-5'>
-            <h1 className='text-center'>My <span className='text-primary'>Projects</span></h1>
+            <h1 className='text-center my-4'>My <span className='text-primary'>Projects</span></h1>
+            <hr className='hr1'/>
+            <hr className='hr2'/>
             <Row>
                 <Col md="12">
                     <CardGroup>

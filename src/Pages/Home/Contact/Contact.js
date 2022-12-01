@@ -9,9 +9,11 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
     return (
         <div className='mt-5 p-5 contact-container'>
-            <h1 className='text-center my-5'>Get in <span className='text-primary'>Touch</span></h1>
+            <h1 className='text-center my-4'>Get in <span className='text-primary'>Touch</span></h1>
+                <hr className='hr1'/>
+                <hr className='hr2'/>
             <Container>
-                <Row>
+                <Row className='mt-5'>
                     <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>
                             <h2 className='mt-2'>
