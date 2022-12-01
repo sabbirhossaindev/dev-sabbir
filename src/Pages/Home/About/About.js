@@ -4,12 +4,17 @@ import sabbir from '../../../Images/logo/sabbir2.png'
 import Button from 'react-bootstrap/Button';
 import { BsDownload, BsGithub } from "react-icons/bs";
 import './About.css';
+import fream1 from '../../../Images/shapes/fream.jpg'
 
 const About = () => {
     return (
-        <div className='mt-5 my-5'>
-            <h1 className='text-center my-5'><span className='text-primary'>About</span> Me</h1>
-            <Container>
+        <div className='p-5'
+        style={{
+            background: `url(${fream1})`,
+            backgroundSize: 'cover'
+        }}>
+            <Container className='mt-5 my-5'>
+                <h1 className='text-center my-5'><span className='text-primary'>About</span> Me</h1>
                 <Row>
                     <Col md='4'>
                         <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">

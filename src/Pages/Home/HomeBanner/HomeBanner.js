@@ -9,16 +9,14 @@ import Typewriter from 'typewriter-effect';
 const HomeBanner = () => {
     
     return (
-        <div className='mt-5 my-5'>
-            <Container>
+        <div className='home-Banner p-5'>
+            <Container className='mt-5 my-5'>
                 <Row>
-                    <Col md="6" className='mt-5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <Col md="6" className='mt-2' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
                             <h1>Hi, I'm</h1>
-                            <h1 className='sabbir text-primary'>SABBIR HOSSAIN</h1>
-                            <h2 className=''>SABBIR HOSSAIN</h2>
-                            
-                            <Typewriter
+                            <h1 className='sabbir text-primary'>Sabbir <br /> Hossain.</h1>     
+                            <h1 className='mt-4 my-3'>I'm </h1> <Typewriter
                             className='options'
                             options={{
                                 strings: ["CEO & FOUNDER of", "𝒮𝒶𝒷𝒷𝒾𝓇 𝕀𝕋 ⏧.", " PROGRAMMER.", "WEB DEVELOPER.", "APP DEVELOPER."],
@@ -31,7 +29,7 @@ const HomeBanner = () => {
                         </div>
                     </Col>
                     <Col md="6">
-                        <img src={aws} alt="aws" className='img-fluid sabbir-img' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
+                        <img src={aws} alt="aws" className='sabbir-img img-fluid' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
                 </Row>
             </Container>

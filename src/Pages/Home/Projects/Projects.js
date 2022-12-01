@@ -1,9 +1,10 @@
 import React from 'react';
 import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
+import './Projects.css';
 
 const Projects = () => {
     return (
-        <Container className='mt-5 my-5'>
+        <Container className='mt-5 my-5 p-5'>
             <h1 className='text-center'>My <span className='text-primary'>Projects</span></h1>
             <Row>
                 <Col md="12">

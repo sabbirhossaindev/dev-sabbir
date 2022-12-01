@@ -5,9 +5,14 @@
 }
 
 .sabbir-img{
-    height: 50%;
+    height: 500px;
+    width: 500px;
 }
 .options{
     font-size: 300px;
     font-weight: 900;
+}
+.home-Banner{
+    background: #f6f3f3;
+    width: 100%;
 }

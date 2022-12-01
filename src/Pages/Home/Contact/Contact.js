@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 const Contact = () => {
     return (
-        <div className='my-5 mt-5'>
+        <div className='mt-5 p-5 contact-container'>
             <h1 className='text-center my-5'>Get in <span className='text-primary'>Touch</span></h1>
             <Container>
                 <Row>
