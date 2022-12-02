@@ -10,7 +10,7 @@ const Header = () => {
       <div id='home'>
         <Navbar className='nav-ber' collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h3 className='text-secondary'>Dev || bir</h3></Link></Navbar.Brand>
+          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h3 className='text-secondary'>Dev <span className='text-primary'>||</span> bir</h3></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">
@@ -18,7 +18,7 @@ const Header = () => {
                       <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
-            <Nav className="ms-auto">
+            <Nav className="ms-auto my-nav">
                 <a className='menu-link' href="#home"><h5 className='mx-2 nav-link text-secondary'>Home</h5>
                 </a>
 
