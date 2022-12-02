@@ -6,7 +6,7 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div className='p-5'>
+        <div className='p-5' id='blogs'>
             <Container>
                 <div>
                     <h1 className='text-center mt-5 my-4'>My <span className='text-primary'>Blogs</span></h1>

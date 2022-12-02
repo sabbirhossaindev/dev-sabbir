@@ -7,6 +7,7 @@ import Home from "../../Pages/Home/Home/Home";
 import HomeBanner from "../../Pages/Home/HomeBanner/HomeBanner";
 import Projects from "../../Pages/Home/Projects/Projects";
 import Skills from "../../Pages/Home/Skills/Skills";
+import NotFound from "../../Pages/Shared/NotFound/NotFound";
 
 
 export const router = createBrowserRouter([
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '*',
+                element: <NotFound></NotFound>
             },
         ]
     }

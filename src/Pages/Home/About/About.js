@@ -8,7 +8,7 @@ import fream1 from '../../../Images/shapes/fream.jpg'
 
 const About = () => {
     return (
-        <div className='p-5'
+        <div className='p-5' id='about'
         style={{
             background: `url(${fream1})`,
             backgroundSize: 'cover'
