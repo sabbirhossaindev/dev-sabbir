@@ -1,25 +1,45 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import app from '../../../Images/logo/app.png';
 import play from '../../../Images/logo/play.png';
 import aws from '../../../Images/logo/aws.png'
 import './Footer.css';
+import { BsFillEmojiSmileFill, BsHeartHalf } from 'react-icons/bs';
 
 
 const Footer = () => {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    let mm = today.getMonth() + 1; // Months start at 0!
+    let dd = today.getDate();
+
+    if (dd < 10) dd = '0' + dd;
+    if (mm < 10) mm = '0' + mm;
+
+    const formattedToday = dd + '/' + mm + '/' + yyyy;
     return (
         <div className='bg-dark text-light'>
             <Container className='py-5 px-5'>
                 <Row>
                     <Col md="3">
                         <h2>Pages</h2>
-                            <Link className='mx-3 nav-link' to='/homebanner'><h5 className='text-secondary'>Home</h5></Link>
-                            <Link className='mx-3 nav-link' to='/about'><h5 className='text-secondary'>About</h5></Link>
-                            <Link className='mx-3 nav-link' to='/skills'><h5 className='text-secondary'>Skills</h5></Link>
-                            <Link className='mx-3 nav-link' to='/projects'><h5 className='text-secondary'>Projects</h5></Link>
-                            <Link className='mx-3 nav-link' to='/blogs'><h5 className='text-secondary'>Blogs</h5></Link>
-                            <Link className='mx-3 nav-link' to='/contact'><h5 className='text-secondary'>Contact</h5></Link>      
+                           <a className='menu-link' href="#home"><h5 className='mx-2 nav-link text-secondary'>Home</h5>
+                            </a>
+
+                            <a className='menu-link' href="#about"><h5 className='mx-2 nav-link text-secondary'>About</h5>
+                            </a>
+
+                            <a className='menu-link' href="#skills"><h5 className='mx-2 nav-link text-secondary'>Skills</h5>
+                            </a>
+
+                            <a className='menu-link' href="#projects"><h5 className='mx-2 nav-link text-secondary'>Projects</h5>
+                            </a>
+
+                            <a className='menu-link' href="#blogs"><h5 className='mx-2 nav-link text-secondary'>Blogs</h5>
+                            </a>
+                            
+                            <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
+                            </a>      
                     </Col>
                     <Col md="3">
                         <h2>Contact us</h2>
@@ -45,7 +65,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center'>
-                    <h5>Created By Dev || bir 2023 All rights reserved ⌕</h5>
+                    <h5>Created By Dev | bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary'>{formattedToday}</span>  All rights reserved <BsHeartHalf className='text-danger'/></h5>
                 </div>
             </Container>
         </div>
