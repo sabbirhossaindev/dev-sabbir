@@ -5,3 +5,12 @@
     background: #f6f3f3;
     width: 100%;
 }
+.go-to-top-icon {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #0626dd;
+    border-radius: 50%;
+}
+.menu-link{
+    text-decoration: none;
+}

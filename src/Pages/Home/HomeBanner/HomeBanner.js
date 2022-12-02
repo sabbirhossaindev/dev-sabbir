@@ -94,11 +94,7 @@ const HomeBanner = () => {
                 detectRetina: true,
             }}
         />
-            <div className="position-fixed fixed-bottom text-end me-4 mb-4">
-                <a href="#home">
-                    <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
-                </a>
-            </div>
+        
             <Container className='mt-5 my-5'>
                 <Row>
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
