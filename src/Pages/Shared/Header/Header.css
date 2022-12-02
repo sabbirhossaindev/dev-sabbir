@@ -12,11 +12,12 @@
     text-decoration: none;
 }
 .my-nav a h5{
-    font-size: large;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 }
+
 .nav-link{
-    font-weight: 600;
+    font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 }

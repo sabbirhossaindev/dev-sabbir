@@ -100,8 +100,8 @@ const HomeBanner = () => {
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
                             <h1>Hi, I'm</h1>
-                            <h1 className='sabbir text-primary'>Sabbir <br /> Hossain.</h1>     
-                            <h1 className='mt-4 my-3'>I'm </h1> <Typewriter
+                            <h1 className='sabbir'>Sabb<span>&iuml;</span>r Hossa<span>&iuml;</span>n</h1>     
+                            <h1 className='mt-4 my-3'>I am </h1> <Typewriter
                             className='options'
                             options={{
                                 strings: ["CEO & FOUNDER of", "Dev || bir ⏧.", " PROGRAMMER.", "WEB DEVELOPER.", "APP DEVELOPER."],
@@ -115,7 +115,7 @@ const HomeBanner = () => {
                                 <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
                                 <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2>    
                             </div>
-                            <Button variant="warning" className='mt-4'><a href="https://github.com/sabbirvai" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
+                            <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
                             <Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>       
                         </div>
                     </Col>
