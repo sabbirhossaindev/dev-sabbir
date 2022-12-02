@@ -12,7 +12,7 @@ const Contact = () => {
             <h1 className='text-center my-4'>Get in <span className='text-primary'>Touch</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
-            <Container>
+            <Container className='my-5'>
                 <Row className='mt-5'>
                     <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>

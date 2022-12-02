@@ -7,14 +7,14 @@ import './Header.css';
 
 const Header = () => {
     return (
-      <div id='header'>
+      <div id='home'>
         <Navbar className='nav-ber' collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h3 className='text-secondary'>Dev || bir</h3></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="position-fixed fixed-bottom text-end me-4 mb-4">
-                  <a href="#header">
+                  <a href="#home">
                       <img className='img-fluid go-to-top-icon' src='https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg' alt="back-to-top-icon" />
                   </a>
               </div>
