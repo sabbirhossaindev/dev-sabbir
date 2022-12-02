@@ -1,52 +1,132 @@
 [
     {
-
-        "service_id": "01",
-        "title": "Fever-Cold",
-        "img": "https://i.ibb.co/3T96zqW/fever-cold.webp",
-        "price": "$20.00",
-        "description": "Catching a cold usually doesn't require a visit to the doctor, and unless there's a complication, medication is not routinely given for the virus that causes a common cold. Antibiotics will not work on a virus. Symptoms of the common cold typically go away within one to two weeks, and any treatment would be to alleviate some of the common symptoms like stuffy nose or sore throat."
-        
+        "title": "Doctor's Portal",
+        "img": "https://i.ibb.co/K08LgDQ/screencapture-doctors-portal-by-netlify-app-appointment-2022-12-03-03-38-06.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I psutils that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page",
+        "liveSide": "https://doctors-portal-by.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/doctors-portal-client"
     },
     {
-
-        "service_id": "02",
-        "title": "Eye Check",
-        "img": "https://i.ibb.co/fStWNs5/2.jpg",
-        "price": "$25.00",
-        "description": "An eye exam involves a series of tests to evaluate your vision and check for eye diseases. Your eye doctor is likely to use various instruments, shine bright lights at your eyes and request that you look through an array of lenses. Each test during an eye exam evaluates a different aspect of your vision or eye health."
+        "title": "Brain Test",
+        "img": "https://i.ibb.co/Jz4H8JD/screencapture-brain-test-quiz-netlify-app-2022-12-03-03-34-25.png",
+        "description": "Brain Test is an addictive free tricky puzzle game with a series of tricky brain teasers. Different riddles testing will challenge your mind. Get ready to take the quiz!",
+        "liveSide": "https://brain-test-quiz.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/quiz-crackerz"
     },
     {
-
-        "service_id": "03",
-        "title": "Blood Test",
-        "img": "https://i.ibb.co/NYHRBbF/3.webp",
-        "price": "$30.00",
-        "description": "A blood test usually involves taking a blood sample from a blood vessel in your arm.The arm is a convenient part of the body to use because it can be easily uncovered. The usual place for a sample to be taken from is the inside of the elbow or wrist, where the veins are relatively close to the surface. Blood samples from children are often taken from the back of the hand. Their skin may be numbed with a special spray or cream before the sample is taken."
+        "title": "Ultra Active Club",
+        "img": "https://i.ibb.co/zmBSrFD/screencapture-cheerful-scone-d90109-netlify-app-2022-12-03-03-32-22.png",
+        "description": "Brain Test is an addictive free tricky puzzle game with a series of tricky brain teasers. Different riddles testing will challenge your mind. Get ready to take the quiz!",
+        "liveSide": "https://cheerful-scone-d90109.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/b6-ultra-active-club"
     },
     {
-
-        "service_id": "04",
-        "title": "Teeth Check",
-        "img": "https://i.ibb.co/tL4XxHw/4.jpg",
-        "price": "$70.00",
-        "description": "Like most other mammals, humans have two successive sets of teeth during life. The first set of teeth are called primary, or deciduous, ones, and the second set are called permanent ones. Humans have 20 primary and 32 permanent teeth. Primary teeth differ from permanent teeth in being smaller, having more pointed cusps, being whiter and more prone to wear, and having relatively large pulp chambers and small, delicate roots"
+        "title": "Awesome Courses",
+        "img": "https://i.ibb.co/fpKVz2F/screencapture-marvelous-semolina-63d1dc-netlify-app-home-2022-12-03-03-29-56-1.png",
+        "description": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+        "liveSide": "https://marvelous-semolina-63d1dc.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/learning-platform-client"
     },
     {
-
-        "service_id": "05",
-        "title": "Blood Pressure Check",
-        "img": "https://i.ibb.co/4sgZHff/5.jpg",
-        "price": "30.00",
-        "description": "Blood pressure machines vary, but they're all a type of measuring device, which often have an arm cuff attached to it.The cuff is usually wrapped around your upper arm and filled with air until it feels tight. This can feel uncomfortable but it only lasts a few seconds.It's important to relax and not talk during this time, because this is when your blood pressure is measured.If a healthcare professional is doing this for you, they may also use a stethoscope to record your blood pressure.An automatic device usually picks up the measurements from sensors in the arm cuff, which are sent to a digital display."
-        
+        "title": "News Today",
+        "img": "https://i.ibb.co/c122H1w/screencapture-news-today-by-sabbir-netlify-app-2022-12-03-03-10-55.png",
+        "description": "Advertisement Advertisement Today at 6:00 p.m. by The Philadelphia Inquirer President Joe Biden delivers remarks on the Safer America Plan, intended to prevent dangerous people from accessing firearms",
+        "liveSide": "https://news-today-by-sabbir.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/news-today"
     },
     {
-
-        "service_id": "06",
-        "title": "Sugar Test",
-        "img": "https://i.ibb.co/hsyBjZv/6.webp",
-        "price": "$10.00",
-        "description": "A blood sugar test can be used to determine the amount of glucose in the blood. It may be used to diagnose diabetes or to help those with diabetes check their blood sugar and insulin levels.A blood sugar test is a procedure that measures the amount of sugar, or glucose, in your blood. A doctor may order this test to help diagnose diabetes. People with type 1 and type 2 diabetes also use this test to manage their condition."    
+        "title": "Speed Typer",
+        "img": "https://i.ibb.co/44CqWLb/screencapture-type-monster-bd-netlify-app-2022-12-03-02-44-17.png",
+        "description": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+        "liveSide": "https://type-monster-bd.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/type-monster"
+    },
+    
+    {
+        "title": "Pro || Doctor",
+        "img": "https://i.ibb.co/0yG7ghS/screencapture-service-review-44823-web-app-2022-12-03-02-33-22-1.png",
+        "description": "Consulting a healthcare professional, buying medicine, ordering lab tests and improving your health and wellbeing, all can be done 24/7 with DocTime!",
+        "liveSide": "https://service-review-44823.web.app/",
+        "gitLink": "https://github.com/sabbirvai/service-review-client"
+    },
+    {
+        "title": "Car Doctor",
+        "img": "https://i.ibb.co/vHsQzmn/screencapture-genius-car-8da04-web-app-2022-12-03-02-27-35.png",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "liveSide": "https://genius-car-8da04.web.app/",
+        "gitLink": "https://github.com/sabbirvai/genius-car-client"
+    },  
+    {
+        "title": "Dragon News",
+        "img": "https://i.ibb.co/Pc75BLn/screencapture-dragon-news-ffc52-web-app-category-02-2022-12-03-01-37-57.png",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "liveSide": "https://dragon-news-ffc52.web.app/",
+        "gitLink": "https://github.com/sabbirvai/dragon-news-client"
+    },
+    {
+        "title": "Gun Store",
+        "img": "https://i.ibb.co/5chnQ3Y/screencapture-gun-store-bd-netlify-app-2022-12-03-01-33-30.png",
+        "description": "Our Gun Made experts did all the heavy lifting and research for you, so we’ll introduce you to the best retailers and places to buy guns online. We’ll also",
+        "liveSide": "https://gun-store-bd.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/gun-store"
+    },
+    {
+        "title": "Weather Today...",
+        "img": "https://i.ibb.co/wrk2qrW/screencapture-temperature-by-sabbir-netlify-app-2022-12-03-01-27-20.png",
+        "description": "Welcome to the brightest selection of weather widgets, where you'll easily find the perfectly suitable website weather widget you've been looking for.If you’re in need of means to improve your website, you have come to the right place.",
+        "liveSide": "https://temperature-by-sabbir.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/temperature-api"
+    },
+    {
+        "title": "Phone Hunter",
+        "img": "https://i.ibb.co/ZfWL2QS/screencapture-phone-hunter-by-sabbir-netlify-app-2022-12-03-01-22-28.png",
+        "description": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "liveSide": "https://phone-hunter-by-sabbir.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/phone-hunter"
+    },
+    {
+        "title": "Best Five Players",
+        "img": "https://i.ibb.co/HBh03x5/screencapture-select-five-psg-player-netlify-app-2022-12-03-01-18-24.png",
+        "description": "Paris Saint-Germain has a small advantage but a very close match lies ahead. Nevertheless our prediction is that Paris Saint-Germain will win.",
+        "liveSide": "https://select-five-psg-player.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/assinment-5"
+    },
+    {
+        "title": "Bap er bank",
+        "img": "https://i.ibb.co/ck1cbYH/screencapture-cute-travesseiro-6ddb8f-netlify-app-bank-html-2022-12-02-23-08-05.png",
+        "description": "email: mdsabbir477470@gmail.com, password: sabbir .Paris Saint-Germain has a small advantage but a very close match lies ahead. Nevertheless our prediction is that Paris Saint-Germain will win.",
+        "liveSide": "https://cute-travesseiro-6ddb8f.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/bap-er-bank"
+    },  
+    {
+        "title": "leader board 2022",
+        "img": "https://i.ibb.co/Jy6rDF2/screencapture-leader-board-2022-netlify-app-2022-12-02-22-59-29.png",
+        "description": "The React 2022 Master JavaScript Course, Powerpoint 2022 Master Powerpoint Course, The Complete JavaScript Guide 2022 course, The React 2022 Master JavaScript Course",
+        "liveSide": "https://leader-board-2022.netlify.app/",
+        "gitLink": "https://github.com/sabbirvai/leader-board-bootstrap"
+    },
+    {
+        "title": "Penguin Fashion",
+        "img": "https://i.ibb.co/yfjVmJT/screencapture-sabbirvai-github-io-nike-react-2022-12-02-23-03-55.png",
+        "description": "Nike Shoe is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
+        "liveSide": "https://sabbirvai.github.io/nike-react/",
+        "gitLink": "https://github.com/sabbirvai/nike-react"
+    },
+    {
+        "title": "Abacus Convention",
+        "img": "https://i.ibb.co/6FTNJ53/screencapture-sabbirvai-github-io-abacus-convention-2022-12-02-22-56-46.png",
+        "description": "Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.",
+        "liveSide": "https://sabbirvai.github.io/abacus-convention/",
+        "gitLink": "https://github.com/sabbirvai/abacus-convention"
+    },
+    {
+        "title": "Abacus Convention",
+        "img": "https://i.ibb.co/nQtgrD7/screencapture-sabbirvai-github-io-donate-today-2022-12-02-22-51-18-1.png",
+        "description": "Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.",
+        "liveSide": "https://sabbirvai.github.io/world-cup-2022/",
+        "gitLink": "https://github.com/sabbirvai/world-cup-2022"
     }
+
+    
+    
 ]

@@ -1,0 +1,36 @@
+.home-top{
+    position: absolute!important;
+}
+.sabbir{
+    font-size: 6.5vw !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-left: -3px;
+    color: #077de5;
+}
+
+.sabbir-img{
+    height: 500px;
+    width: 500px;
+}
+/* .options{
+    font-size: 300px;
+    font-weight: 900;
+} */
+.home-Banner{
+    background: #f6f3f3;
+    width: 100%;
+}
+.social-link{
+    display: flex;
+    gap: 20px;
+}
+.social-link a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.type-writer{
+    display: inline !important;
+}
