@@ -17,7 +17,7 @@ const HomeTop = () => {
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
                             <h1>Hi, I'm</h1>
-                            <h1 className='sabbir'>Sabb<span>&iuml;</span>r Hossa<span>&iuml;</span>n</h1>     
+                            <h1 className='sabbir'>Sabb<span>&iuml;</span>r Hossain</h1>     
                             <h2 className='mt-4 my-3 type-writer'>I am <span><Typewriter
                             className='options'
                             options={{
@@ -26,7 +26,7 @@ const HomeTop = () => {
                                 loop: true,
                             }}
                             /></span></h2> 
-                            <div className='social-link text-center'>
+                            <div className='social-link text-center my-3'>
                                 <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
                                 <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>

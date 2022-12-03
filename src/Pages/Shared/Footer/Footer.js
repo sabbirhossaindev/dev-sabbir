@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import app from '../../../Images/logo/app.png';
 import play from '../../../Images/logo/play.png';
-import aws from '../../../Images/logo/aws.png'
+import me from '../../../Images/logo/me.png'
 import './Footer.css';
 import { BsFillEmojiSmileFill, BsHeartHalf } from 'react-icons/bs';
 
@@ -61,7 +61,7 @@ const Footer = () => {
                         </Row>
                     </Col>
                     <Col md="3">
-                        <img src={aws} alt="aws" className='img-fluid'/>
+                        <img src={me} alt="aws" className='img-fluid'/>
                     </Col>
                 </Row>
                 <div className='text-light text-center'>

@@ -1,7 +1,7 @@
 [
     {
         "title": "Doctor's Portal",
-        "img": "https://i.ibb.co/K08LgDQ/screencapture-doctors-portal-by-netlify-app-appointment-2022-12-03-03-38-06.png",
+        "img": "",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I psutils that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page",
         "liveSide": "https://doctors-portal-by.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/doctors-portal-client"
@@ -29,7 +29,7 @@
     },
     {
         "title": "News Today",
-        "img": "https://i.ibb.co/c122H1w/screencapture-news-today-by-sabbir-netlify-app-2022-12-03-03-10-55.png",
+        "img": "",
         "description": "Advertisement Advertisement Today at 6:00 p.m. by The Philadelphia Inquirer President Joe Biden delivers remarks on the Safer America Plan, intended to prevent dangerous people from accessing firearms",
         "liveSide": "https://news-today-by-sabbir.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/news-today"
@@ -44,28 +44,28 @@
     
     {
         "title": "Pro || Doctor",
-        "img": "https://i.ibb.co/0yG7ghS/screencapture-service-review-44823-web-app-2022-12-03-02-33-22-1.png",
+        "img": "",
         "description": "Consulting a healthcare professional, buying medicine, ordering lab tests and improving your health and wellbeing, all can be done 24/7 with DocTime!",
         "liveSide": "https://service-review-44823.web.app/",
         "gitLink": "https://github.com/sabbirvai/service-review-client"
     },
     {
         "title": "Car Doctor",
-        "img": "https://i.ibb.co/vHsQzmn/screencapture-genius-car-8da04-web-app-2022-12-03-02-27-35.png",
+        "img": "",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "liveSide": "https://genius-car-8da04.web.app/",
         "gitLink": "https://github.com/sabbirvai/genius-car-client"
     },  
     {
         "title": "Dragon News",
-        "img": "https://i.ibb.co/Pc75BLn/screencapture-dragon-news-ffc52-web-app-category-02-2022-12-03-01-37-57.png",
+        "img": "",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "liveSide": "https://dragon-news-ffc52.web.app/",
         "gitLink": "https://github.com/sabbirvai/dragon-news-client"
     },
     {
         "title": "Gun Store",
-        "img": "https://i.ibb.co/5chnQ3Y/screencapture-gun-store-bd-netlify-app-2022-12-03-01-33-30.png",
+        "img": "",
         "description": "Our Gun Made experts did all the heavy lifting and research for you, so we’ll introduce you to the best retailers and places to buy guns online. We’ll also",
         "liveSide": "https://gun-store-bd.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/gun-store"
@@ -79,14 +79,14 @@
     },
     {
         "title": "Phone Hunter",
-        "img": "https://i.ibb.co/ZfWL2QS/screencapture-phone-hunter-by-sabbir-netlify-app-2022-12-03-01-22-28.png",
+        "img": "",
         "description": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
         "liveSide": "https://phone-hunter-by-sabbir.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/phone-hunter"
     },
     {
         "title": "Best Five Players",
-        "img": "https://i.ibb.co/HBh03x5/screencapture-select-five-psg-player-netlify-app-2022-12-03-01-18-24.png",
+        "img": "",
         "description": "Paris Saint-Germain has a small advantage but a very close match lies ahead. Nevertheless our prediction is that Paris Saint-Germain will win.",
         "liveSide": "https://select-five-psg-player.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/assinment-5"
@@ -100,33 +100,23 @@
     },  
     {
         "title": "leader board 2022",
-        "img": "https://i.ibb.co/Jy6rDF2/screencapture-leader-board-2022-netlify-app-2022-12-02-22-59-29.png",
+        "img": "",
         "description": "The React 2022 Master JavaScript Course, Powerpoint 2022 Master Powerpoint Course, The Complete JavaScript Guide 2022 course, The React 2022 Master JavaScript Course",
         "liveSide": "https://leader-board-2022.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/leader-board-bootstrap"
     },
     {
         "title": "Penguin Fashion",
-        "img": "https://i.ibb.co/yfjVmJT/screencapture-sabbirvai-github-io-nike-react-2022-12-02-23-03-55.png",
+        "img": "",
         "description": "Nike Shoe is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
         "liveSide": "https://sabbirvai.github.io/nike-react/",
         "gitLink": "https://github.com/sabbirvai/nike-react"
     },
     {
         "title": "Abacus Convention",
-        "img": "https://i.ibb.co/6FTNJ53/screencapture-sabbirvai-github-io-abacus-convention-2022-12-02-22-56-46.png",
+        "img": "",
         "description": "Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.",
         "liveSide": "https://sabbirvai.github.io/abacus-convention/",
         "gitLink": "https://github.com/sabbirvai/abacus-convention"
-    },
-    {
-        "title": "Abacus Convention",
-        "img": "https://i.ibb.co/nQtgrD7/screencapture-sabbirvai-github-io-donate-today-2022-12-02-22-51-18-1.png",
-        "description": "Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.",
-        "liveSide": "https://sabbirvai.github.io/world-cup-2022/",
-        "gitLink": "https://github.com/sabbirvai/world-cup-2022"
-    }
-
-    
-    
+    }   
 ]

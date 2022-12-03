@@ -29,3 +29,8 @@ hr {
     border: 0;
     opacity: .25;
 }
+/* card details */
+Button a{
+    text-decoration: none;
+    color: none !important;
+}
