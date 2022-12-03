@@ -4,7 +4,8 @@ import app from '../../../Images/logo/app.png';
 import play from '../../../Images/logo/play.png';
 import me from '../../../Images/logo/me.png'
 import './Footer.css';
-import { BsFillEmojiSmileFill, BsHeartHalf } from 'react-icons/bs';
+import { BsFillEmojiSmileFill, BsGithub, BsGlobe, BsHeartHalf, BsLinkedin } from 'react-icons/bs';
+import footer from '../../../Images/logo/footer.png'
 
 
 const Footer = () => {
@@ -18,9 +19,12 @@ const Footer = () => {
 
     const formattedToday = dd + '/' + mm + '/' + yyyy;
     return (
-        <div className='bg-dark text-light'>
+        <div className='bg-dark text-light' style={{
+            background: `url(${footer})`,
+            backgroundSize: 'cover'
+        }}>
             <Container className='py-5 px-5'>
-                <Row>
+                <Row className='mx-auto'>
                     <Col md="3">
                         <h2>Pages</h2>
                            <a className='menu-link' href="#home"><h5 className='mx-2 nav-link text-secondary'>Home</h5>
@@ -43,9 +47,9 @@ const Footer = () => {
                     </Col>
                     <Col md="3">
                         <h2>Contact us</h2>
-                        <p>Phone : +8801888559287</p>
-                        <p>Phone : +8801719228487</p>
-                        <p>Email : mdsabbir477470@gmail.com</p>
+                        <p className='fs-5 text-secondary'>+8801888559287</p>
+                        <p className='fs-5 text-secondary'>+8801719228487</p>
+                        <p className='fs-5 text-secondary'>mdsabbir477470@gmail.com</p>
                     </Col>
                     <Col md="3" className='py-1'>
                         <div>
@@ -60,12 +64,19 @@ const Footer = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col md="3">
-                        <img src={me} alt="aws" className='img-fluid'/>
+                    <Col md="3" className='mx-auto text-center'>
+                        <img src={me} alt="aws" className='img-fluid' />
+                        <div className='social-link text-center mx-5 mt-3'>
+                                <h2 className='social-h2'><a href="#home"><BsGlobe /></a></h2>
+
+                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2> 
+
+                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
+                            </div>
                     </Col>
                 </Row>
-                <div className='text-light text-center'>
-                    <h5>Created By Dev | Bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary'>{formattedToday}</span>  All rights reserved <BsHeartHalf className='text-danger'/></h5>
+                <div className='text-light text-center mt-3'>
+                    <h5>Created By Sab | Bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary'>{formattedToday}</span>  All rights reserved <BsHeartHalf className='text-danger'/></h5>
                 </div>
             </Container>
         </div>

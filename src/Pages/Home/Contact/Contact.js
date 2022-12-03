@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
@@ -45,15 +45,20 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className='social-link my-5 text-center'>
-                            <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
-                            <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
-                            <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
-                            <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2>    
-                        </div>
+                        <div className='social-link text-center my-2'>
+                                <h2 className='social-h2'><a href="#home"><BsGlobe /></a></h2>
+
+                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2> 
+
+                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
+                                   
+                                <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
+
+                                <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
+                            </div>
                     </Col>
 
-                    <Col md='7'>
+                    <Col md='7' className='mt-2'>
                     <Form> 
                         <Row>
                             <Col md="6">
