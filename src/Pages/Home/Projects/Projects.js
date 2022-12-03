@@ -32,9 +32,9 @@ const Projects = () => {
                 <Row>
                     {
                         project?.map(pro =><Col md='6'sm='12' lg='4'>
-                        <div className='my-4' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div className='my-4 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <Card style={{ width: '20rem' }} className='shadow'>
-                                <Card.Img variant="top" style={{ width: '320px',}} src={pro?.img} className='p-3 rounded-lg text-center'/>
+                                <img variant="top" style={{ width: '320px',}} src={pro?.img} className='p-3 project-img text-center' alt='img'/>
                                 <Card.Body>
                                     <h4 className='text-center'>{pro?.title}</h4>
                                     <p className='text-center fs-5 p-2'>{pro?.description.slice(0, 100) + " ... more"}</p>
