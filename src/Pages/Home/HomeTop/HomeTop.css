@@ -2,7 +2,7 @@
     position: absolute!important;
 }
 .sabbir{
-    font-size: 6.5vw !important;
+    font-size: 6.4vw !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.4;
     font-weight: 600;
@@ -33,4 +33,7 @@
 }
 .type-writer{
     display: inline !important;
+}
+.options{
+    border:  1px solid black;
 }

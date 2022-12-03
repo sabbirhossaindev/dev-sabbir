@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import { BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsDownload, BsChatSquareDotsFill } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsDownload, BsChatSquareDotsFill, BsGlobe } from "react-icons/bs";
 import aws from '../../../Images/logo/aws.png'
 // import HomeBanner from '../HomeBanner/HomeBanner';
 import Typewriter from 'typewriter-effect';
@@ -25,8 +25,11 @@ const HomeTop = () => {
                                 autoStart: true,
                                 loop: true,
                             }}
-                            /></span></h2> 
-                            <div className='social-link text-center my-3'>
+                            /></span></h2>
+                            <p className='text-dark fs-5'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development.</p>
+
+                            <div className='social-link text-center my-2'>
+                                <h2 className='social-h2'><a href="#home"><BsGlobe /></a></h2>
                                 <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
                                 <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>

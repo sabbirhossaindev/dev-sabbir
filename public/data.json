@@ -2,7 +2,7 @@
     {
         "title": "Doctor's Portal",
         "img": "https://i.ibb.co/5nFSz7P/doctor-portsal.jpg",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I psutils that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of  looking at its layout. The point of using Lorem I psutils that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page",
         "liveSide": "https://doctors-portal-by.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/doctors-portal-client"
     },
@@ -23,7 +23,7 @@
     {
         "title": "Awesome Courses",
         "img": "https://i.ibb.co/fpKVz2F/screencapture-marvelous-semolina-63d1dc-netlify-app-home-2022-12-03-03-29-56-1.png",
-        "description": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+        "description": "Web development is the in developing a website for the Internet or an intranet. Web   range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
         "liveSide": "https://marvelous-semolina-63d1dc.netlify.app/",
         "gitLink": "https://github.com/sabbirvai/learning-platform-client"
     },

@@ -25,10 +25,11 @@ const About = () => {
                     </Col>
                     <Col md='8'>
                         <div>
-                            <p className='mt-3 fs-5 text-secondary'>Assalamu-alaykum I'm Sabbir Hossain CEO & Founder of 𝒮𝒶𝒷𝒷𝒾𝓇..𝕀𝕋 ⏧. I am currently studying for a Diploma in Engineering of Computer Science. My campus name is Habiganj polytechnic Institute. I am a programmer, web developer, app developer & Freelancer. My birth place is located in Rangpur District Badarganj Thana Ramnathpur Union. My father is Business-men. My mother is a home-maker. I have one brother & one sister. I love Football & Coding. I like to learn and teach.
+                            <p className='mt-3 fs-5 text-secondary'>Assalamu-alaykum, I am Sabbir Hossain. I am currently studying for a Diploma in Engineering of Computer Science. My campus name is Habiganj polytechnic Institute. My birth place is located in Rangpur District Badarganj Thana Ramnathpur Union. I love Football & Coding. I like to learn and teach.
                                 <br />
                                 <br />
-                            I am currently studying for a Diploma in Engineering of Computer Science. My campus name is Habiganj polytechnic Institute. I am a programmer, web developer, app developer & Freelancer. My birth place is located in Rangpur District Badarganj Thana Ramnathpur Union. My father is Business-men. My mother is a home-maker. I have one brother & one sister. I love Football & Coding. I like to learn and teach.
+                                I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development. Also eagerly wants to serve a professional organization to the best of my knowledge with true dedication, hard work, and commitment.
+
                             </p>
                             <Button variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button>
                             <Button variant="warning" className='mt-4 mx-5'><a href="https://github.com/sabbirvai" className='text-black github'>GitHub <BsGithub /></a></Button>
