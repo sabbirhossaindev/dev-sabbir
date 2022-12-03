@@ -34,6 +34,6 @@
 .type-writer{
     display: inline !important;
 }
-.options{
-    border:  1px solid black;
+.text-cursor{
+    font-weight: 600;
 }

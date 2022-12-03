@@ -65,7 +65,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center'>
-                    <h5>Created By Dev | bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary'>{formattedToday}</span>  All rights reserved <BsHeartHalf className='text-danger'/></h5>
+                    <h5>Created By Dev | Bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary'>{formattedToday}</span>  All rights reserved <BsHeartHalf className='text-danger'/></h5>
                 </div>
             </Container>
         </div>

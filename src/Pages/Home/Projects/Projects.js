@@ -27,9 +27,9 @@ const Projects = () => {
                                     <h4 className='text-center'>{pro?.title}</h4>
                                     <p className='text-center fs-5 p-2 text-secondary'>{pro?.description.slice(0, 100) + " ... more"}</p>
                                     <div className='d-flex justify-content-around text-center'>
-                                        <a href={pro?.gitLink}><Button variant='outline-secondary' size="lg"><BsGithub /> GitHub</Button></a>
+                                        <a href={pro?.gitLink}><Button variant='outline-secondary' size="md"><BsGithub /> GitHub</Button></a>
 
-                                        <a href={pro?.liveSide}><Button variant='secondary' size="lg"><BsEyeFill /> LiveSite</Button></a>
+                                        <a href={pro?.liveSide}><Button variant='secondary' size="md"><BsEyeFill /> LiveSite</Button></a>
                                     </div>
                                 </Card.Body>
                             </Card>
