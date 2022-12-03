@@ -79,7 +79,7 @@ const Contact = () => {
                             <Form.Control as="textarea" rows={3} placeholder="Message me please" required/>
                         </Form.Group>
                         
-                        <Button variant="outline-primary" className='my-3'>Sand Message</Button>{' '}
+                        <Button variant="outline-primary" className='my-3'>Sand Message</Button>
                         </Form>
                     </Col>
                 </Row>

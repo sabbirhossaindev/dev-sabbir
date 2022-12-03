@@ -30,11 +30,12 @@ hr {
     opacity: .25;
 }
 /* card details */
+
 Button a{
     text-decoration: none;
     color: none !important;
 }
 .project-img{
-    width: 300px !important;
-    height: 250px !important;
+    width: 100% !important;
+    height: 230px !important;
 }
