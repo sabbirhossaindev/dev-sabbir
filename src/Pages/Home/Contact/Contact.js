@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
 import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import { toast } from 'react-toastify';
 
 

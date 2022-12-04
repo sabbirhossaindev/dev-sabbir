@@ -7,8 +7,6 @@
     width: 100px;
 }
 
-element.style {
-}
 hr:not([size]) {
     height: 1px;
 }
