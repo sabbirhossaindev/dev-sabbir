@@ -9,7 +9,7 @@ import './HomeTop.css';
 
 const HomeTop = () => {
     const [text] = useTypewriter({
-        words: ['Full Stack Web Developer 💻', 'Programmer 💻', 'Sab | Bir 💻', 'Web Developer 💻', 'Software Engineer 💻', 'Coder 💻'],
+        words: ['Full Stack WebDeveloper 💻', 'Programmer 💻', 'Sab | Bir 💻', 'Web Developer 💻', 'Software Engineer 💻', 'Coder 💻'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
       })
@@ -23,8 +23,8 @@ const HomeTop = () => {
                 <Row>
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
-                            <h3>Hey, <span><strong className='text-danger'>Do you know me?</strong></span> I'm </h3>
-                            <h1 className='sabbir'>Sabb<span>&iuml;</span>r Hossain</h1>     
+                            <h3>Hey, <span><strong className='text-danger'>Let's get to know me.</strong></span> I'm </h3>
+                            <h1 className='sabbir'>Sabbir Hossain</h1>     
                             <span className='fs-1 mt-5 text-cursor'>I'm  {text}</span>
                             <Cursor cursorColor='red' />
                             <p className='text-dark fs-5 mt-2'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development.</p>

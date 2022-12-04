@@ -15,9 +15,26 @@ const Contact = () => {
         const email = form.email.value;
         const subject = form.subject.value;
         const message = form.message.value;
-        console.log(name, email, subject, message);
-        toast.success('Message sand please check your mail few minute letter Sabbir feetBack 📝 Thank you! 🥰');
-        form.reset('');
+        const addInfo = {
+            name, email, subject, message
+        }
+        console.log('addInfo', addInfo);
+        // toast.success('Message sand please check your mail few minute letter Sabbir feetBack 📝 Thank you! 🥰');
+        // form.reset('');
+
+        fetch(`http://localhost:5000/submit`, {
+        method: 'POST',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(addInfo)
+    })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            toast.success('Message sand 🥰 Please check your mail Your answer will be given after a few minutes later 📝 Thank you! 🥰');
+            form.reset('');
+        })
     }
 
     return (

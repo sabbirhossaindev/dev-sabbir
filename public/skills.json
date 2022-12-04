@@ -1,5 +1,29 @@
 [
     {
+        "title": "HTML HTML5",
+        "img": "https://www.besanttechnologies.com/wp-content/uploads/2017/12/differences-between-html-and-html5.png",
+        "one": "HTML5 Core Functions",
+        "two": "Html vs Html5 3 Portfolio",
+        "three": "Some Projects Develop",
+        "develop": "4.5"
+    },
+    {
+        "title": "CSS  CSS3",
+        "img": "https://media-exp1.licdn.com/dms/image/D4D12AQHdjsSVxMlUWA/article-cover_image-shrink_600_2000/0/1657693944125?e=2147483647&v=beta&t=c6FcP52KQRZWn9TTOWTGyc5aT6tZtSj56wS2uRpG5cA",
+        "one": "Grid System, Position, inline-block",
+        "two": "Flex System, Animations, Media Queries",
+        "three": "Core Functions",
+        "develop": "3.5"
+    },
+    {
+        "title": "Bootstrap Tailwind",
+        "img": "https://laravelnews.s3.amazonaws.com/images/tailwindo.png",
+        "one": "Core Functions",
+        "two": "Tailwind, Daisy UI, Material-UI",
+        "three": "BootStrap, ReactBootstrap",
+        "develop": "4.5"
+    },
+    {
         "title": "JAVASCRIPT",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
         "one": "javaScript solve problems and 6th Rotno.",

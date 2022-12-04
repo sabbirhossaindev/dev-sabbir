@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import { BsCheckCircleFill, BsFillCircleFill } from 'react-icons/bs';
+import { BsCheckCircleFill, BsStarFill } from 'react-icons/bs';
 import './Skills.css';
 
 const Skills = () => {
     const [skills, setSkills] = useState([])
     useEffect(() => {
-        fetch(`skills.json`)
+        fetch(`http://localhost:5000/skills`)
             .then(res => res.json())
             .then(data => setSkills(data))
     },[])
@@ -31,19 +31,19 @@ const Skills = () => {
                                         <Card.Body>
                                             <h4 className='card-title'>{skill?.title}</h4>
                                             <hr className='hr2'/>
-                                            <p className='card-text fs-5 text-secondary'><BsCheckCircleFill className='mx-2 text-success'/>{skill?.one}</p>
-                                            <p className='card-text fs-5 text-secondary'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.two}</p>
-                                            <p className='card-text fs-5 text-secondary'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.three}</p>
+                                            <p className='card-text text-start fs-5'><BsCheckCircleFill className='mx-2 text-success'/>{skill?.one}</p>
+                                            <p className='card-text text-start fs-5'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.two}</p>
+                                            <p className='card-text text-start fs-5'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.three}</p>
 
-                                            {/* <div className='text-center'>
-                                                <BsFillCircleFill className='text-center mx-1'/>
-                                                <BsFillCircleFill className='text-center mx-1'/>
-                                                <BsFillCircleFill className='text-center mx-1'/>
-                                                <BsFillCircleFill className='text-center mx-1'/>
-                                            </div> */}
                                             <div className='text-center'>
-                                                <h3>{skill?.develop}</h3>
+                                                <BsStarFill className='text-center text-warning mx-1'/>
+                                                <BsStarFill className='text-center text-warning mx-1'/>
+                                                <BsStarFill className='text-center text-warning mx-1'/>
+                                                <BsStarFill className='text-center text-warning mx-1'/>
                                             </div>
+                                            {/* <div className='text-center'>
+                                                <h3>{skill?.develop}</h3>
+                                            </div> */}
                                         </Card.Body>
                                         <p class="card-text p-3"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </Col>
@@ -52,8 +52,8 @@ const Skills = () => {
                         </div>
                     </Col>)
                     }
-                </Row>
-                
+
+                </Row>           
             </Container>
         </div>
         
