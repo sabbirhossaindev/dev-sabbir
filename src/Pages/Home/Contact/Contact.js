@@ -18,9 +18,7 @@ const Contact = () => {
         const addInfo = {
             name, email, subject, message
         }
-        console.log('addInfo', addInfo);
-        // toast.success('Message sand please check your mail few minute letter Sabbir feetBack 📝 Thank you! 🥰');
-        // form.reset('');
+        // console.log('addInfo', addInfo);
 
         fetch(`http://localhost:5000/submit`, {
         method: 'POST',
@@ -76,15 +74,15 @@ const Contact = () => {
                         </div>
 
                         <div className='social-link text-center my-2'>
-                                <h2 className='social-h2'><a href="#home"><BsGlobe /></a></h2>
+                                <h2 className='social-h2'><a href="#home"><BsGlobe className='text-primary'/></a></h2>
 
-                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2> 
+                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
 
-                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
+                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
                                    
-                                <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook /></a></h2>
+                                <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook className='text-primary'/></a></h2>
 
-                                <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram /></a></h2>
+                                <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
                     </Col>
 
