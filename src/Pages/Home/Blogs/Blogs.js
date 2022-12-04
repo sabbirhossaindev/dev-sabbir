@@ -1,62 +1,36 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Cursor,  useTypewriter } from 'react-simple-typewriter';
 import './Blogs.css';
+import fream1 from '../../../Images/shapes/fream.jpg'
 
 const Blogs = () => {
+    const [text] = useTypewriter({
+        words: [`Hello user thanks for coming this page i'm sorry for that i'm building this page for everyone they can post somethings here and also they can read lot's of blog of mine and most of the developer blog they can also read Thank You! 🥰❤😍`],
+        loop: Infinity,
+        onLoopDone: () => console.log(`loop completed after Infinity runs.`)
+      })
     return (
-        <div className='p-5' id='blogs'>
-            <Container>
+        <div className='p-5 blogs-container' id='blogs' style={{
+            background: `url(${fream1})`,
+            backgroundSize: 'cover',
+        }}>
+            <Container className='mt-5 my-5'>
                 <div>
-                    <h1 className='text-center mt-5 my-4'>My <span className='text-primary'>Blogs</span></h1>
+                    <h1 className='text-center my-4'>My <span className='text-primary'>Blogs</span></h1>
                     <hr className='hr1'/>
                     <hr className='hr2'/>
                 </div>
-                <Row>
+                <Row data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <Col md="12">
-                        <CardGroup data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                            <Card className='mx-3 my-5'>
-                                <Card.Img variant="top" src="holder.js/100px160" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in
-                                    to additional content. This content is a little bit longer.
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                            <Card className='mx-3 my-5'>
-                                <Card.Img variant="top" src="holder.js/100px160" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This card has supporting text below as a natural lead-in to
-                                    additional content.{' '}
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                            <Card className='mx-3 my-5'>
-                                <Card.Img variant="top" src="holder.js/100px160" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in
-                                    to additional content. This card has even longer content than the
-                                    first to show that equal height action.
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                        </CardGroup>
+                        <div style={{height:'250px'}}>
+                            <div className="container">
+                                <div className="text-center mt-5">
+                                <span className='fs-2 mt-5 text-cursor'>I'm  {text}</span>
+                                    <Cursor cursorColor='red' />
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
