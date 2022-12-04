@@ -25,7 +25,7 @@ const About = () => {
                     </Col>
                     <Col md='8'>
                         <div>
-                            <p className='mt-3 fs-5 text-secondary'>Assalamu-alaykum, I am Sabbir Hossain. I am currently studying for a Diploma in Engineering of Computer Science. My campus name is Habiganj polytechnic Institute. My birth place is located in Rangpur District Badarganj Thana Ramnathpur Union. I love Football & Coding. I like to learn and teach.
+                            <p className='mt-3 fs-5 text-secondary'>Assalamu-alaykum, I am Sabbir Hossain. I am currently studying for a Diploma in Engineering of Computer Science. My campus name is Habiganj polytechnic Institute.I am a programmer with a good level of expertise in Front-End Web Development. My birth place is located in Rangpur, Badarganj, Khairpara. I love Football & Coding. I like to learn and teach.I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web development.
                                 <br />
                                 <br />
                                 I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development. Also eagerly wants to serve a professional organization to the best of my knowledge with true dedication, hard work, and commitment.
