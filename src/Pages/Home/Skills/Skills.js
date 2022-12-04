@@ -6,7 +6,7 @@ import './Skills.css';
 const Skills = () => {
     const [skills, setSkills] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/skills`)
+        fetch(`https://dev-sabbir-server.vercel.app/skills`)
             .then(res => res.json())
             .then(data => setSkills(data))
     },[])

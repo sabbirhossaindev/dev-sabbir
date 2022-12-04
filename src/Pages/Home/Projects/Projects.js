@@ -7,7 +7,7 @@ const Projects = () => {
     const [project, setProject] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/projectsCollections')
+        fetch('https://dev-sabbir-server.vercel.app/projectsCollections')
             .then(res => res.json())
             .then(data =>setProject(data))
     }, [])
