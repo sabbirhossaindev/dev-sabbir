@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import {  BsFillBsFillCircleFillFill, BsFillCircleFill } from 'react-icons/bs';
 import './Skills.css';
 
 
@@ -27,7 +28,7 @@ const Skills = () => {
                 <h1 className='text-center my-4'>My <span className='text-primary'>Skills</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
-                <Row className='mx-auto'>
+                {/* <Row className='mx-auto'>
                     <Col md='6' sm='12' lg='3'>
                         <h5 className='my-4'>HTML</h5>
                         <ProgressBar className='text-center' animated now={html} label={`${html}%`} />
@@ -71,9 +72,11 @@ const Skills = () => {
                         <h5 className='my-4'>React Native</h5>
                         <ProgressBar className='text-center' animated now={reactNative} label={`${reactNative}%`} />  
                     </Col>
-                </Row>
+                </Row> */}
+                
             </Container>
         </div>
+        
     );
 };
 

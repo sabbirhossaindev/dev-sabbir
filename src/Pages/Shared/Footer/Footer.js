@@ -67,11 +67,11 @@ const Footer = () => {
                     <Col md="3" className='mx-auto text-center'>
                         <img src={me} alt="aws" className='img-fluid' />
                         <div className='social-link text-center mx-5 mt-3'>
-                                <h2 className='social-h2'><a href="#home"><BsGlobe /></a></h2>
+                                <h2 className='social-h2'><a href="#home"><BsGlobe className='text-primary'/></a></h2>
 
-                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub /></a></h2> 
+                                <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
 
-                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin /></a></h2>
+                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
                             </div>
                     </Col>
                 </Row>

@@ -17,8 +17,8 @@ const Contact = () => {
         const subject = form.subject.value;
         const message = form.message.value;
         console.log(name, email, subject, message);
-        toast.success('Message sand please check your email few minute letter, Thank you!')
-        form.reset('')
+        toast.success('Message sand please check your mail few minute letter Sabbir feetBack 📝 Thank you! 🥰');
+        form.reset('');
     }
 
     return (
