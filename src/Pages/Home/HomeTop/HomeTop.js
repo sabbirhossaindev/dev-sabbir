@@ -23,7 +23,7 @@ const HomeTop = () => {
                 <Row>
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
-                            <h3>Hey, Do you know me? I'm </h3>
+                            <h3>Hey, <span><strong className='text-danger'>Do you know me?</strong></span> I'm </h3>
                             <h1 className='sabbir'>Sabb<span>&iuml;</span>r Hossain</h1>     
                             <span className='fs-1 mt-5 text-cursor'>I'm  {text}</span>
                             <Cursor cursorColor='red' />

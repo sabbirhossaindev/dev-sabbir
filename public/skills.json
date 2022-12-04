@@ -2,7 +2,7 @@
     {
         "title": "JAVASCRIPT",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
-        "one": "Can solve problems",
+        "one": "javaScript solve problems and 6th Rotno.",
         "two": "Good at DOM",
         "three": "Know Core Functions",
         "develop": "4"
@@ -13,11 +13,11 @@
         "one": "React Core things and components",
         "two": "Good at Redux",
         "three": "NPM GIT JSX and More",
-        "develop": "5"
+        "develop": "4.5"
     }, 
     {
         "title": "NODE JS",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxYQteBNbsfPbosuhQ18yCbA1qqm2bePSAyIwFzdcPpxPw4Uvbhqex21OTJxiPkPRuRU&usqp=CAU",
         "one": "Package Management",
         "two": "Databases and Node JS NPM",
         "three": "Source & Security",
@@ -34,15 +34,15 @@
     {
         "title": "EXPRESS JS",
         "img": "https://vladmrnv.gallerycdn.vsassets.io/extensions/vladmrnv/expresssnippet/0.2.4/1528939685286/Microsoft.VisualStudio.Services.Icons.Default",
-        "one": "Done Concept",
+        "one": "Done Concept for express js",
         "two": "Good at Express",
         "three": "Core things",
-        "develop": "4"
+        "develop": "4.5"
     },
     {
         "title": "MERN STACK",
         "img": "https://qph.fs.quoracdn.net/main-qimg-073ea8b86447ed9310e7e73bd89894b3",
-        "one": "Whole things",
+        "one": "MongoDB, Express, React, Node",
         "two": "Best in MERN",
         "three": "Projects",
         "develop": "4"
