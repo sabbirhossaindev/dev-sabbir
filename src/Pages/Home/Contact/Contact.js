@@ -20,7 +20,7 @@ const Contact = () => {
         }
         // console.log('addInfo', addInfo);
 
-        fetch(`http://localhost:5000/submit`, {
+        fetch(`https://dev-sabbir-server.vercel.app/submit`, {
         method: 'POST',
         headers: {
             'Content-Type' : 'application/json'
@@ -29,8 +29,8 @@ const Contact = () => {
     })
         .then(res => res.json())
         .then(data => {
-            console.log(data);
-            toast.success('Message sand 🥰 Please check your mail Your answer will be given after a few minutes later 📝 Thank you! 🥰');
+            // console.log(data);
+            toast.success('Message sand.😮😮😮 please check your email your answer will be given after a few minutes later 📝 Thank you ! 🥰');
             form.reset('');
         })
     }

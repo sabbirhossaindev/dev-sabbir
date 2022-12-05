@@ -14,12 +14,12 @@ const Projects = () => {
     return (
         <div className='mt-5 p-5' id='projects'>
             <Container>
-                <h1 className='text-center'>My Recent <span className='text-primary'>Projects</span> {new Date().getFullYear()}</h1>
+                <h1 className='text-center'>My Recent <span className='text-primary'>Projects</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>
                     {
-                        project?.map(pro =><Col md='6'sm='12' lg='4' className='text-center'>
+                        project?.map(pro =><Col md='6'sm='12' lg='4' className='text-center' key={pro?._id}>
                         <div className='my-4 mx-2 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <Card className='shadow-lg'>
                                 <img variant="top" src={pro?.img} className='p-3 project-img text-center rounded' alt='img'/>
