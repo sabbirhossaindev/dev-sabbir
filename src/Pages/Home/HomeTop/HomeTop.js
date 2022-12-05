@@ -42,8 +42,8 @@ const HomeTop = () => {
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
                             <div className='d-flex justify-content-start text-center'>
-                                <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                                <a className='resume mx-4' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button></a> 
+                                <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
+                                <a className='resume mx-4' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" size="sm" className='mt-4'>Download Resume <BsDownload /></Button></a> 
                             </div>      
                         </div>
                     </Col>

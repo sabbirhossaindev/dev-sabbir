@@ -32,8 +32,8 @@ const About = () => {
 
                             </p>
                             <div className='d-flex justify-content-start text-center'>
-                                <Button size="md" variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button>
-                                <Button variant="warning" size="md" className='mt-4 mx-5'><a href="https://github.com/sabbirvai" className='text-black github'>GitHub <BsGithub /></a></Button>
+                                <Button size="sm" variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button>
+                                <Button variant="warning" size="sm" className='mt-4 mx-5'><a href="https://github.com/sabbirvai" className='text-black github'>GitHub <BsGithub /></a></Button>
                             </div>
                         </div>
                     </Col>
