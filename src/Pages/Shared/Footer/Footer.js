@@ -19,7 +19,7 @@ const Footer = () => {
 
     const formattedToday = dd + '/' + mm + '/' + yyyy;
     return (
-        <div className='bg-dark text-light' style={{
+        <div className='bg-dark text-light p-1' style={{
             background: `url(${footer})`,
             backgroundSize: 'cover'
         }}>

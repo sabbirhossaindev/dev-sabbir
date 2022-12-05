@@ -12,7 +12,7 @@ const Projects = () => {
             .then(data =>setProject(data))
     }, [])
     return (
-        <div className='mt-5 p-5' id='projects'>
+        <div className='mt-5 my-5' id='projects'>
             <Container>
                 <h1 className='text-center'>My Recent <span className='text-primary'>Projects</span></h1>
                 <hr className='hr1'/>
@@ -27,9 +27,9 @@ const Projects = () => {
                                     <h4 className='text-center'>{pro?.title}</h4>
                                     <p className='text-center fs-5 p-2 text-secondary'>{pro?.description.slice(0, 100) + " ... more"}</p>
                                     <div className='d-flex justify-content-around text-center'>
-                                        <a href={pro?.gitLink}><Button variant='outline-secondary' size="md"><BsGithub /> GitHub</Button></a>
+                                        <a href={pro?.gitLink}><Button variant='outline-secondary' size="sm"><BsGithub /> GitHub</Button></a>
 
-                                        <a href={pro?.liveSide}><Button variant='secondary' size="md"><BsEyeFill /> LiveSite</Button></a>
+                                        <a href={pro?.liveSide}><Button variant='secondary' size="sm"><BsEyeFill /> LiveSite</Button></a>
                                     </div>
                                 </Card.Body>
                             </Card>

@@ -30,13 +30,13 @@ const Contact = () => {
         .then(res => res.json())
         .then(data => {
             // console.log(data);
-            toast.success('Message sand.😮😮😮 please check your email your answer will be given after a few minutes later 📝 Thank you ! 🥰');
+            toast.success('Message sand.😮😮 please check your email your answer will be given after a few minutes later📝 Thank you !🥰');
             form.reset('');
         })
     }
 
     return (
-        <div className='p-5 contact-container' id='contact'>
+        <div className='p-2 contact-container' id='contact'>
             <h1 className='text-center my-4'>Get in <span className='text-primary'>Touch</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>

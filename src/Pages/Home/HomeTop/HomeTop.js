@@ -9,13 +9,13 @@ import './HomeTop.css';
 
 const HomeTop = () => {
     const [text] = useTypewriter({
-        words: ['Full Stack WebDeveloper 💻', 'Programmer 💻', 'Sab | Bir 💻', 'Web Developer 💻', 'Software Engineer 💻', 'Coder 💻'],
+        words: ['Full Stack','WebDeveloper.💻', 'Programmer💻', 'Sab | Bir 💻', 'Web Developer💻', 'Software Engineer.', 'Coder 💻'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
     })
       
     return (
-        <div className='home-Banner p-5' id='home'>
+        <div className='home-Banner p-1' id='home'>
 
             <div className='position-relative w-100 h-100 home-top'>
                 {/* <HomeBanner /> */}
@@ -41,9 +41,10 @@ const HomeTop = () => {
 
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
-                            <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                            <a className='resume' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>
-                            </a>       
+                            <div className='d-flex justify-content-around text-center'>
+                                <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
+                                <a className='resume' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button></a> 
+                            </div>      
                         </div>
                     </Col>
                     <Col md="6">

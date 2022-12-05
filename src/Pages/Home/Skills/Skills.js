@@ -11,9 +11,9 @@ const Skills = () => {
             .then(data => setSkills(data))
     },[])
     return (
-        <div className='p-5 skill-banner' id='skills'>
-            <Container className='my-5 mt-5' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <h1 className='text-center my-4'>My <span className='text-primary'>Skills</span></h1>
+        <div className='mt-5 my-5 skill-banner' id='skills'>
+            <Container data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 className='text-center mt-5'>My <span className='text-primary'>Skills</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 
@@ -22,8 +22,8 @@ const Skills = () => {
                     {
                         skills?.map(skill =><Col md='6'sm='12' lg='4' className='text-center' key={skill?._id}>
                         <div className='my-4 mx-2 text-center' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                            <Card className='shadow-lg mt-5'>
-                                <Row>
+                            <Card className='shadow-lg mt-5 my-5'>
+                                <Row className=''>
                                     <Col md='5'>
                                         <img variant="top" src={skill?.img} className='p-3 project-img text-center rounded' alt='img'/>
                                     </Col>
@@ -45,7 +45,7 @@ const Skills = () => {
                                                 <h3>{skill?.develop}</h3>
                                             </div> */}
                                         </Card.Body>
-                                        <p class="card-text p-3"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text p-3 my-3"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </Col>
                                 </Row>
                             </Card>

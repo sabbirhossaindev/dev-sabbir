@@ -11,7 +11,7 @@ const Blogs = () => {
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
       })
     return (
-        <div className='p-5 blogs-container' id='blogs' style={{
+        <div className='p-2 blogs-container' id='blogs' style={{
             background: `url(${fream1})`,
             backgroundSize: 'cover',
         }}>
@@ -23,7 +23,7 @@ const Blogs = () => {
                 </div>
                 <Row data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <Col md="12">
-                        <div style={{height:'250px'}}>
+                        <div style={{height:'450px'}}>
                             <div className="container">
                                 <div className="text-center mt-5">
                                 <span className='fs-2 mt-5 text-cursor'>I'm  {text}</span>
