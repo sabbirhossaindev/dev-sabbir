@@ -9,7 +9,7 @@ import './HomeTop.css';
 
 const HomeTop = () => {
     const [text] = useTypewriter({
-        words: ['Full Stack','WebDeveloper.💻', 'Programmer💻', 'Sab | Bir 💻', 'Web Developer💻', 'Software Engineer.', 'Coder 💻'],
+        words: ['Full Stack...','Web Developer.💻', 'Programmer.💻', 'Sab | Bir 💻', 'Web Developer💻', 'Software Engineer.', 'Coder 💻'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
     })
@@ -24,9 +24,9 @@ const HomeTop = () => {
                 <Row>
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
-                            <h3>Hey, <span><strong className='text-danger'>Let's get to know me.</strong></span> I'm </h3>
+                            <h3>Hey, <span><strong className='text-success'>Let's get to know me.</strong></span> I'm </h3>
                             <h1 className='sabbir'>Sabbir Hossain</h1>     
-                            <span className='fs-1 mt-5 text-cursor'>I'm  {text}</span>
+                            <span className='fs-2 mt-5 text-cursor'>I'm  <span style={{ color: 'crimson'}}>{text}</span></span>
                             <Cursor cursorColor='red' />
                             <p className='text-dark fs-5 mt-2'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development.</p>
 
@@ -41,9 +41,9 @@ const HomeTop = () => {
 
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
-                            <div className='d-flex justify-content-around text-center'>
+                            <div className='d-flex justify-content-start text-center'>
                                 <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                                <a className='resume' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button></a> 
+                                <a className='resume mx-4' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4'>Download Resume <BsDownload /></Button></a> 
                             </div>      
                         </div>
                     </Col>
