@@ -11,7 +11,7 @@ const Blogs = () => {
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
       })
     return (
-        <div className='p-2 blogs-container' id='blogs' style={{
+        <div className='p-1 blogs-container' id='blogs' style={{
             background: `url(${fream1})`,
             backgroundSize: 'cover',
         }}>

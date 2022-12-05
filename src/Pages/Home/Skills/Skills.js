@@ -11,7 +11,7 @@ const Skills = () => {
             .then(data => setSkills(data))
     },[])
     return (
-        <div className='p-2 skill-banner' id='skills'>
+        <div className='p-1 skill-banner' id='skills'>
             <Container className='mt-5 my-3' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <h1 className='text-center'>My <span className='text-primary'>Skills</span></h1>
                 <hr className='hr1'/>
@@ -35,7 +35,7 @@ const Skills = () => {
                                             <p className='card-text text-start fs-5'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.two}</p>
                                             <p className='card-text text-start fs-5'><BsCheckCircleFill className='mx-2 text-success'/> {skill?.three}</p>
 
-                                            <div className='text-center'>
+                                            <div className='text-start ms-3'>
                                                 <BsStarFill className='text-center text-warning mx-1'/>
                                                 <BsStarFill className='text-center text-warning mx-1'/>
                                                 <BsStarFill className='text-center text-warning mx-1'/>
@@ -44,8 +44,8 @@ const Skills = () => {
                                             {/* <div className='text-center'>
                                                 <h3>{skill?.develop}</h3>
                                             </div> */}
+                                            <p class="card-text my-4"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </Card.Body>
-                                        <p class="card-text p-3 my-3"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </Col>
                                 </Row>
                             </Card>
