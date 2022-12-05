@@ -31,7 +31,7 @@ const HomeTop = () => {
                             <p className='text-dark fs-5 mt-2'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development.</p>
 
                             <div className='social-link text-center my-2'>
-                                <h2 className='social-h2'><a href="#home"><BsGlobe className='text-primary'/></a></h2>
+                                <h2 className='social-h2'><a href="https://dev-sabbir.web.app"><BsGlobe className='text-primary'/></a></h2>
 
                                 <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
 
