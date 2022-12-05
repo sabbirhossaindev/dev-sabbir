@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div className='mt-5 p-5' id='projects'>
             <Container>
-                <h1 className='text-center'>My Recent <span className='text-primary'>Projects</span></h1>
+                <h1 className='text-center'>My Recent <span className='text-primary'>Projects</span> {new Date().getFullYear()}</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 <Row className='mx-auto gap'>

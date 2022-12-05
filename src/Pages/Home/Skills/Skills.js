@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <div className='p-5 skill-banner' id='skills'>
             <Container className='my-5 mt-5' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <h1 className='text-center my-4'>My <span className='text-primary'>Skills</span></h1>
+                <h1 className='text-center my-4'>My <span className='text-primary'>Skills</span> {new Date().getFullYear()}</h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 

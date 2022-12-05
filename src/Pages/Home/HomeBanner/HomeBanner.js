@@ -205,7 +205,7 @@ const HomeBanner = () => {
             },
             detectRetina: true,
         }}
-    />
+        />
     );
 };
 

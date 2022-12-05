@@ -1,23 +1,117 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsDownload, BsChatSquareDotsFill, BsGlobe } from "react-icons/bs";
 import aws from '../../../Images/logo/aws.png'
 // import HomeBanner from '../HomeBanner/HomeBanner';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+// import { Document, Page } from 'react-pdf';
 
 import './HomeTop.css';
+import { loadFull } from 'tsparticles';
+import Particles from 'react-tsparticles';
 
 const HomeTop = () => {
     const [text] = useTypewriter({
         words: ['Full Stack WebDeveloper 💻', 'Programmer 💻', 'Sab | Bir 💻', 'Web Developer 💻', 'Software Engineer 💻', 'Coder 💻'],
         loop: Infinity,
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
-      })
+    })
+    
+    // const [numPages, setNumPages] = useState(null);
+    // const [pageNumber, setPageNumber] = useState(1);
+    
+    // function onDocumentLoadSuccess({ numPages }) {
+    //     setNumPages(numPages);
+    // }
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        
+        await loadFull(engine);
+    }, []);
+
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
       
     return (
         <div className='home-Banner p-5' id='home'>
+
             <div className='position-relative w-100 h-100 home-top'>
                 {/* <HomeBanner /> */}
+                <Particles
+                    id="tsparticles"
+                    init={particlesInit}
+                    loaded={particlesLoaded}
+                    options={{
+                    
+                        fpsLimit: 120,
+                        interactivity: {
+                            events: {
+                                onClick: {
+                                    enable: true,
+                                    mode: "push",
+                                },
+                                onHover: {
+                                    enable: true,
+                                    mode: "repulse",
+                                },
+                                resize: true,
+                            },
+                            modes: {
+                                push: {
+                                    quantity: 4,
+                                },
+                                repulse: {
+                                    distance: 100,
+                                    duration: 0.4,
+                                },
+                            },
+                        },
+                        particles: {
+                            color: {
+                                value: "#000000",
+                            },
+                            links: {
+                                color: "#000000",
+                                distance: 140,
+                                enable: true,
+                                opacity: 0.5,
+                                width: 1,
+                            },
+                            collisions: {
+                                enable: true,
+                            },
+                            move: {
+                                directions: "bottom",
+                                enable: true,
+                                outModes: {
+                                    default: "bounce",
+                                },
+                                random: true,
+                                speed: 3,
+                                straight: false,
+                            },
+                            number: {
+                                density: {
+                                    enable: true,
+                                    area: 800,
+                                },
+                                value: 100,
+                            },
+                            opacity: {
+                                value: 0.5,
+                            },
+                            shape: {
+                                type: "circle",
+                            },
+                            size: {
+                                value: { min: 1, max: 3 },
+                            },
+                        },
+                        detectRetina: true,
+                    }}
+                />
+
             </div>
             <Container className='mt-5 my-5'>
                 <Row>
@@ -41,7 +135,8 @@ const HomeTop = () => {
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
                             <Button variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                            <Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>       
+                            <a className='resume' href="Sabbir-Hossain.pdf"><Button variant="outline-primary" className='mt-4 mx-5'>Download Resume <BsDownload /></Button>
+                            </a>       
                         </div>
                     </Col>
                     <Col md="6">
