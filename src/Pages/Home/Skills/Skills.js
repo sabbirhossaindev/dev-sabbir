@@ -11,9 +11,9 @@ const Skills = () => {
             .then(data => setSkills(data))
     },[])
     return (
-        <div className='mt-5 my-5 skill-banner' id='skills'>
-            <Container data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <h1 className='text-center mt-5'>My <span className='text-primary'>Skills</span></h1>
+        <div className='mt-5 my-5 p-2 skill-banner' id='skills'>
+            <Container className='mt-5 my-5' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 className='text-center'>My <span className='text-primary'>Skills</span></h1>
                 <hr className='hr1'/>
                 <hr className='hr2'/>
                 
