@@ -36,7 +36,7 @@ const Header = () => {
                 
                 <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
                 </a>
-                <a href="Sabbir-Hossain.pdf"><button type='submit' className='btn btn-sm btn-warning mx-2 my-1 fs-5 menu-link'>Resume</button></a>
+                <a href="sabbir-hossain.pdf"><button type='submit' className='btn btn-sm btn-warning mx-2 my-1 fs-5 menu-link'>Resume</button></a>
             </Nav>  
           </Navbar.Collapse>
         </Container>
