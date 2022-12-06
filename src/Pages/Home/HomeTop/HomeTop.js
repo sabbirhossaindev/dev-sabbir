@@ -24,11 +24,11 @@ const HomeTop = () => {
                 <Row>
                     <Col md="6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className=''>
-                            <h3>Hey, <span><strong className='text-success'>Let's get to know me.</strong></span> I'm </h3>
+                            <p className='fs-5'>Hey, <span><strong className='text-success'>Let's get to know me.</strong></span> I'm </p>
                             <h1 className='sabbir'>Sabbir Hossain</h1>     
                             <span className='fs-2 mt-5 text-cursor'>I'm  <span style={{ color: 'crimson'}}>{text}</span></span>
                             <Cursor cursorColor='red' />
-                            <p className='text-dark fs-5 mt-2'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in Web Development.</p>
+                            <p className='text-dark fs-5 mt-2'>I am a hardworking, confident, enthusiastic Web developer and I want to utilize my knowledge and personal skills in full stack Web Development.</p>
 
                             <div className='social-link text-center my-2'>
                                 <h2 className='social-h2'><a href="https://dev-sabbir.web.app"><BsGlobe className='text-primary'/></a></h2>

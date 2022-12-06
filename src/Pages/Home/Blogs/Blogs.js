@@ -6,7 +6,7 @@ import fream1 from '../../../Images/shapes/fream.jpg'
 
 const Blogs = () => {
     const [text] = useTypewriter({
-        words: [`Hello user thanks for coming this page i'm sorry for that i'm building this page for everyone they can post somethings here and also they can read lot's of blog of mine and most of the developer blog they can also read Thank You! 🥰❤😍`],
+        words: [`hello user thanks for coming this page i'm sorry for that i'm building this page for everyone they can post somethings here and also they can read lot's of blog of mine and most of the developer blog they can also read Thank You! 🥰❤😍`],
         loop: '2',
         onLoopDone: () => console.log(`loop completed after Infinity runs.`)
       })
@@ -21,12 +21,12 @@ const Blogs = () => {
                     <hr className='hr1'/>
                     <hr className='hr2'/>
                 </div>
-                <Row data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <Row data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <Col md="12">
-                        <div style={{height:'450px'}}>
+                        <div style={{height:'400px'}}>
                             <div className="container">
                                 <div className="text-center mt-5">
-                                <p className='fs-3 mt-5 text-cursor'>I'm  {text}</p>
+                                <span className='fs-4 mt-5 text-cursor'>I'm  <span style={{ color: 'gray'}}>{text}</span></span>
                                     <Cursor cursorColor='red' />
                                 </div>
                             </div>
