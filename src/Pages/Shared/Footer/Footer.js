@@ -44,6 +44,7 @@ const Footer = () => {
                             
                             <a className='menu-link' href="#contact"><h5 className='mx-2 nav-link text-secondary'>Contact</h5>
                             </a>
+                            <a href="sabbir-hossain.pdf" download='sabbir-hossain.pdf'><button type='submit' className='btn btn-sm btn-warning mx-2 my-1 fs-5 menu-link'>Resume</button></a>
                         </div>      
                     </Col>
                     <Col md="3">
