@@ -43,7 +43,7 @@ const HomeTop = () => {
                             </div>
                             <div className='d-flex justify-content-start text-center'>
                                 <Button size="sm" variant="warning" className='mt-4'><a href="#contact" className='text-black github'>Hire me <BsChatSquareDotsFill /></a></Button>
-                                <a className='resume mx-4' href="sabbir-hossain.pdf"><Button variant="outline-primary" size="sm" className='mt-4'>Download Resume <BsDownload /></Button></a> 
+                                <a className='resume mx-4' href="sabbir-hossain (2).pdf"><Button variant="outline-primary" size="sm" className='mt-4'>Download Resume <BsDownload /></Button></a> 
                             </div>      
                         </div>
                     </Col>
