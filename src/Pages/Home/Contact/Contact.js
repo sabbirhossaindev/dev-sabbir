@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Contact.css';
-import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsGlobe } from "react-icons/bs";
+import { BsFillTelephoneInboundFill, BsFillEnvelopeOpenFill, BsCursorFill, BsFacebook, BsInstagram, BsLinkedin, BsChatDotsFill, BsGithub, BsGlobe } from "react-icons/bs";
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify';
 
@@ -45,7 +45,7 @@ const Contact = () => {
                     <Col md='5' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div className='phone'>
                             <h2 className='mt-2'>
-                                <span><BsFillTelephoneInboundFill /></span>
+                                <span className='text-danger'><BsFillTelephoneInboundFill /></span>
                             </h2>
                             <div>
                                 <h2>Phone</h2>
@@ -55,7 +55,7 @@ const Contact = () => {
 
                         <div className='email'>
                             <h2 className='mt-2'>
-                                <span><BsFillEnvelopeOpenFill /></span>
+                                <span className='text-warning'><BsFillEnvelopeOpenFill /></span>
                             </h2>
                             <div>
                                 <h2>Email</h2>
@@ -65,11 +65,11 @@ const Contact = () => {
 
                         <div className='location'>
                             <h2 className='mt-2'>
-                                <span><BsCursorFill /></span>
+                                <span className='text-success'><BsCursorFill /></span>
                             </h2>
                             <div>
                                 <h2>Location</h2>
-                                <h5>Rangpur, Badarganj-201</h5>
+                                <h5>Badarganj,Rangpur,Bangladesh</h5>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                             <Form.Control as="textarea" rows={3} name='message' placeholder="Message me please" required/>
                         </Form.Group>
                         
-                        <button type="submit" className='my-3 btn btn-primary'>Sand Message</button>
+                        <button type="submit" className='my-3 btn btn-primary'>Sand Message <BsChatDotsFill className='text-warning'/></button>
                         </Form>
                     </Col>
                 </Row>
