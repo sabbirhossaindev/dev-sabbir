@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { BsChevronLeft, BsChevronRight} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
@@ -10,7 +11,7 @@ const Header = () => {
       <div id='home'>
         <Navbar className='nav-ber' collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h2 className='text-secondary'><strong>Sab <span className='text-primary'><span>&#x7c;</span></span> Bir</strong></h2></Link></Navbar.Brand>
+          <Navbar.Brand><Link className='mx-3 nav-link' to='/'><h2 className='text-secondary'><strong><marquee behavior="left" direction=""><b><BsChevronLeft />SABBIR /<BsChevronRight /></b></marquee></strong></h2></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto my-nav">

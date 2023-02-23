@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import me from '../../../Images/logo/me.png'
 import './Footer.css';
 import { BsFillEmojiSmileFill, BsGithub, BsGlobe, BsHeartHalf, BsLinkedin } from 'react-icons/bs';
-import footer from '../../../Images/logo/footer.png'
+import footer from '../../../Images/logo/footer.png';
+import { BsChevronLeft, BsChevronRight} from 'react-icons/bs';
 
 
 const Footer = () => {
@@ -84,7 +85,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='text-light text-center mt-3'>
-                    <h5>Created By Sab | Bir <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary mx-2'>{formattedToday}</span>  All rights reserved {new Date().getFullYear()}. <BsHeartHalf className='text-danger'/></h5>
+                    <h5>Created By <strong><b><BsChevronLeft />SABBIR /<BsChevronRight /></b></strong> <BsFillEmojiSmileFill className='text-warning'/>  <span className='text-primary mx-2'>{formattedToday}</span>  All rights reserved {new Date().getFullYear()}. <BsHeartHalf className='text-danger'/></h5>
                 </div>
             </Container>
         </div>
