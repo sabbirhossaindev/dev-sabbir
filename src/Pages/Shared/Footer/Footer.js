@@ -72,7 +72,7 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col md="3" className='mx-auto text-center'>
-                        <h2 className='mx-auto text-center'>Sab | Bir</h2>
+                        <h2 className='mx-auto text-center'><BsChevronLeft />SABBIR /<BsChevronRight /></h2>
                         <hr className='hr2'/>
                         <img src={me} alt="aws" className='img-fluid' />
                         <div className='social-link mx-5 text-center mt-3'>
