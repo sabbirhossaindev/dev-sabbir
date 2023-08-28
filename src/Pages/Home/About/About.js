@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import sabbir from '../../../Images/logo/sabbir2.png'
 import Button from 'react-bootstrap/Button';
 import { BsDownload, BsGithub } from "react-icons/bs";
 import './About.css';
-import fream1 from '../../../Images/shapes/fream.jpg'
+import fream1 from '../../../Images/shapes/fream.jpg';
+import aws from '../../../Images/logo/aws.png';
 
 const About = () => {
     return (
@@ -20,7 +20,7 @@ const About = () => {
                 <Row className='mt-5 my-5'>
                     <Col md='4'>
                         <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                            <img src={sabbir} alt="" className='img-fluid p-3'/>
+                            <img src={aws} alt="" className='img-fluid p-3'/>
                         </div>
                     </Col>
                     <Col md='8'>

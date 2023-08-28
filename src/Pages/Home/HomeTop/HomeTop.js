@@ -1,10 +1,8 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import { BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsDownload, BsChatSquareDotsFill, BsGlobe } from "react-icons/bs";
-import aws from '../../../Images/logo/aws.png'
-// import HomeBanner from '../HomeBanner/HomeBanner';
+import { BsFacebook, BsInstagram, BsLinkedin, BsGithub, BsDownload, BsChatSquareDotsFill, BsGlobe, BsMedium } from "react-icons/bs";
+import me from '../../../Images/logo/smait.png';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-// import { Document, Page } from 'react-pdf';
 import './HomeTop.css';
 
 const HomeTop = () => {
@@ -39,9 +37,11 @@ const HomeTop = () => {
 
                                 <h2 className='social-h2'><a href="https://github.com/sabbirvai"><BsGithub className='text-secondary'/></a></h2> 
 
-                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary'/></a></h2>
+                                <h2 className='social-h2'><a href="https://www.linkedin.com/in/md-sabbir-hossain-18300b244/"><BsLinkedin className='text-primary' /></a></h2>
+                                
+                                <h2 className='social-h2'><a href="https://medium.com/@sabbirhossain_37022"><BsMedium className='text-dark'/></a></h2>
                                    
-                                <h2 className='social-h2'><a href="https://www.facebook.com/misty.sabbir.3/"><BsFacebook className='text-primary'/></a></h2>
+                                <h2 className='social-h2'><a href="https://www.facebook.com/profile.php?id=100066520511940"><BsFacebook className='text-primary'/></a></h2>
 
                                 <h2 className='social-h2'><a href="https://www.instagram.com/dev__sabbir/?fbclid=IwAR0cozEZJSlO_1JIYXtcbxKAPDnTkJ2NDZR9VZCO4m0K8SyknAL3Se-7mqs"><BsInstagram className='text-danger'/></a></h2>
                             </div>
@@ -52,7 +52,7 @@ const HomeTop = () => {
                         </div>
                     </Col>
                     <Col md="6">
-                        <img src={aws} alt="aws" className='sabbir-img img-fluid' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
+                        <img src={me} alt="img top" className='sabbir-img img-fluid mt-1' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
                     </Col>
                 </Row>
             </Container>
